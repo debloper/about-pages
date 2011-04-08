@@ -1,6 +1,6 @@
 {
  "bootstrap": {
-  "classID": "{360eafd8-daf4-41ce-bf81-00cb924f0ccb}", 
+  "classID": "{6cd72dbd-0321-4833-93dd-4c608e118409}", 
   "contractID": "@mozilla.org/harness-service;1?id=jid0-AFtEdrprcME0x2cBpLsAOKC8u5Y"
  }, 
  "bundleID": "jid0-AFtEdrprcME0x2cBpLsAOKC8u5Y@jetpack", 
@@ -12,7 +12,7 @@
   "resource://jid0-aftedrprcme0x2cbplsaokc8u5y-about-pages-lib/main.js": {
    "chrome": false, 
    "e10s-adapter": null, 
-   "hash": "9f02453c4cccd17e98c9c07a186e5e07982e85a078c1930d426f6c2a7187e0bc", 
+   "hash": "917a0f8186f17aef21ca79f8b181208a3160a2a077233cd762f5d6a185a6bf36", 
    "name": "main", 
    "packageName": "about-pages", 
    "requires": {
@@ -1370,9 +1370,9 @@
  "metadata": {
   "about-pages": {
    "author": "5600401", 
-   "description": "Quick-access to the Firefox about: pages from right-click shell menu.", 
+   "description": "Quick-access to the Firefox about: pages from right-click context menu.", 
    "name": "about-pages", 
-   "version": "0.5"
+   "version": "1"
   }, 
   "addon-kit": {
    "author": "Atul Varma (http://toolness.com/) <atul@mozilla.com>", 
