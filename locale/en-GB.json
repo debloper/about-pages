@@ -1,0 +1,11 @@
+{
+ "Translated": "Yes", 
+ "downloadsCount": {
+  "one": "one download", 
+  "other": "%d downloads"
+ }, 
+ "pluralTest": {
+  "other": "fallback to other", 
+  "zero": "optional zero form"
+ }
+}

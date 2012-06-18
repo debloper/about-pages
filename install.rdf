@@ -1,35 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>jid0-AFtEdrprcME0x2cBpLsAOKC8u5Y@jetpack</em:id>
-    <em:version>1</em:version>
+    <em:version>2.0</em:version>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
-    <em:unpack>true</em:unpack>
-
-    <!-- Target Application this extension can install into, 
-         with minimum and maximum supported versions. For a list 
-         of valid values, see:
-
-         https://addons.mozilla.org/en-US/firefox/pages/appversions
-     --> 
+    <em:unpack>false</em:unpack>
 
     <!-- Firefox -->
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>4.0b7</em:minVersion>
-        <em:maxVersion>4.0.*</em:maxVersion>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>15.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
     <!-- Front End MetaData -->
     <em:name>About Pages</em:name>
+    <em:creator>Debloper</em:creator>
+    <em:homepageURL>http://code.debs.io/about-pages</em:homepageURL>
+    <em:iconURL>http://code.debs.io/about-pages/icon.png</em:iconURL>
     <em:description>Quick-access to the Firefox about: pages from right-click context menu.</em:description>
-    <em:creator>5600401</em:creator>
-    <em:iconURL/>
-    <em:icon64URL/>
-    
-    <em:optionsURL/>
-    
+
   </Description>
 </RDF>
